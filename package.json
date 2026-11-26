@@ -1,0 +1,23 @@
+{
+  "name": "wa-md-bot",
+  "version": "1.0.0",
+  "description": "WhatsApp MD bot (Baileys) with menu and setdp, Vercel ready",
+  "type": "module",
+  "main": "api/index.js",
+  "scripts": {
+    "start": "node api/index.js",
+    "dev": "node api/index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.18",
+    "@vercel/functions": "^1.5.0",
+    "express": "^4.19.2",
+    "jimp": "^1.6.0",
+    "pino": "^9.4.0",
+    "yt-search": "^2.12.1",
+    "@distube/ytdl-core": "^4.14.4"
+  }
+}
